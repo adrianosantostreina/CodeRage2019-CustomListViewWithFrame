@@ -1,0 +1,157 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claWhite
+    Size.Width = 380.000000000000000000
+    Size.Height = 570.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object ToolBar1: TToolBar
+    Size.Width = 380.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 284.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Custom List with Frame'
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Align = Right
+      Position.X = 332.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'deletetoolbutton'
+      TabOrder = 1
+      Text = 'Button2'
+      OnClick = Button2Click
+    end
+  end
+  object vertList: TVertScrollBox
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 522.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 380.000000000000000000
+    Viewport.Height = 522.000000000000000000
+    inline FrameBase1: TFrameBase
+      Align = Top
+      Size.Width = 380.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      inherited lytBack: TLayout
+        inherited Rectangle1: TRectangle
+          inherited Layout2: TLayout
+            inherited lytBtnCenter: TLayout
+              inherited speBtnNext: TSpeedButton
+                Size.Height = 48.000000000000000000
+              end
+            end
+          end
+          inherited lytTextos: TLayout
+            inherited lytBottom: TLayout
+              inherited lytIcon: TLayout
+                inherited speTPath: TSpeedButton
+                  Size.Height = 48.000000000000000000
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\' +
+        'Database\Listagem.db'
+      'OpenMode=ReadWrite'
+      'DriverID=SQLite')
+    LoginPrompt = False
+    BeforeConnect = FDConnection1BeforeConnect
+    Left = 48
+    Top = 256
+  end
+  object QryUsuarios: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM USUARIOS')
+    Left = 48
+    Top = 312
+    object QryUsuariosID: TIntegerField
+      FieldName = 'ID'
+      Origin = 'ID'
+    end
+    object QryUsuariosNOME: TStringField
+      FieldName = 'NOME'
+      Origin = 'NOME'
+      Size = 200
+    end
+    object QryUsuariosAPELIDO: TStringField
+      FieldName = 'APELIDO'
+      Origin = 'APELIDO'
+      Size = 30
+    end
+    object QryUsuariosDT_NASCIMENTO: TSQLTimeStampField
+      FieldName = 'DT_NASCIMENTO'
+      Origin = 'DT_NASCIMENTO'
+    end
+    object QryUsuariosCOMPROU: TStringField
+      FieldName = 'COMPROU'
+      Origin = 'COMPROU'
+      Size = 1
+    end
+    object QryUsuariosFOTO: TBlobField
+      FieldName = 'FOTO'
+      Origin = 'FOTO'
+    end
+  end
+  object FDPhysSQLiteDriverLink1: TFDPhysSQLiteDriverLink
+    Left = 48
+    Top = 368
+  end
+  object QryAuxiliar: TFDQuery
+    Connection = FDConnection1
+    Left = 48
+    Top = 481
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = QryUsuarios
+    ScopeMappings = <>
+    Left = 160
+    Top = 256
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 160
+    Top = 309
+  end
+end

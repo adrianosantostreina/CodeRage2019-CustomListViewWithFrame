@@ -1,0 +1,189 @@
+object FrameBase: TFrameBase
+  Size.Width = 380.000000000000000000
+  Size.Height = 90.000000000000000000
+  Size.PlatformDefault = False
+  object lytBack: TLayout
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 380.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF4B13FB
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+      object Layout1: TLayout
+        Align = Left
+        Margins.Left = 4.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Position.X = 4.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 82.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object cirPhoto: TCircle
+          Align = Client
+          Fill.Bitmap.WrapMode = Tile
+          Fill.Kind = Bitmap
+          Size.Width = 89.000000000000000000
+          Size.Height = 82.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF4B13FB
+        end
+      end
+      object Layout2: TLayout
+        Align = Right
+        Position.X = 352.000000000000000000
+        Size.Width = 28.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object lytBtnCenter: TLayout
+          Align = Center
+          ClipChildren = True
+          Size.Width = 30.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object pthIconNext: TPath
+            Align = Client
+            Data.Path = {
+              0800000000000000A4700941D7A384410100000052B852410000404101000000
+              A4700941B81EED4001000000000020410000C040010000000000804100004041
+              01000000000020410000904101000000A4700941D7A3844103000000A4700941
+              D7A38441}
+            Fill.Color = xFF1DD300
+            Margins.Left = 8.000000000000000000
+            Margins.Top = 4.000000000000000000
+            Margins.Right = 8.000000000000000000
+            Margins.Bottom = 4.000000000000000000
+            Size.Width = 14.000000000000000000
+            Size.Height = 22.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+          object speBtnNext: TSpeedButton
+            Align = Client
+            Size.Width = 30.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object lytTextos: TLayout
+        Align = Client
+        Margins.Top = 4.000000000000000000
+        Margins.Bottom = 4.000000000000000000
+        Size.Width = 255.000000000000000000
+        Size.Height = 82.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object lblTitulo: TLabel
+          Align = Top
+          StyledSettings = [Family, Style]
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Position.X = 4.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFF14327F
+          Text = 'lblTitulo'
+          TabOrder = 0
+        end
+        object lblDetail1: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Position.X = 4.000000000000000000
+          Position.Y = 21.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF14327F
+          Text = 'lblDetail1'
+          TabOrder = 1
+        end
+        object lblDetail2: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 4.000000000000000000
+          Position.Y = 40.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF14327F
+          Text = 'lblDetail2'
+          TabOrder = 2
+        end
+        object lytBottom: TLayout
+          Align = Client
+          Size.Width = 255.000000000000000000
+          Size.Height = 21.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object lblDetail3: TLabel
+            Align = Client
+            StyledSettings = [Family, Size, Style]
+            Margins.Left = 4.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 221.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = xFF14327F
+            Text = 'lblDetail3'
+            TabOrder = 0
+          end
+          object lytIcon: TLayout
+            Align = Right
+            ClipChildren = True
+            Position.X = 227.000000000000000000
+            Size.Width = 28.000000000000000000
+            Size.Height = 21.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object pthIcon: TPath
+              Align = Client
+              Data.Path = {
+                080000000000000000001041295CA341010000005C8F3240295C634101000000
+                0AD7B3407B1436410100000000001041EC516C41010000003D0A9741F6289C40
+                0100000014AEAD4152B8F6400100000000001041295CA3410300000000001041
+                295CA341}
+              Fill.Color = xFFE1290C
+              Margins.Left = 8.000000000000000000
+              Margins.Top = 4.000000000000000000
+              Margins.Right = 8.000000000000000000
+              Margins.Bottom = 4.000000000000000000
+              Size.Width = 12.000000000000000000
+              Size.Height = 13.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+            end
+            object speTPath: TSpeedButton
+              Align = Client
+              Size.Width = 28.000000000000000000
+              Size.Height = 21.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+    end
+  end
+end

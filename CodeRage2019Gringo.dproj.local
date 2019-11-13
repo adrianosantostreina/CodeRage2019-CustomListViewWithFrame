@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/06/04 14:11:01.000.289,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/04 18:45:35.000.206,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/05 16:29:52.000.637,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/12 17:49:46.000.960,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/24 21:31:49.000.992,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/05 10:33:12.000.125,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/10 11:15:05.000.948,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/07 10:22:20.000.202,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/08 10:15:25.000.426,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/12 22:36:33.000.783,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/26 21:09:32.000.871,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 09:03:52.000.013,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/17 20:09:57.000.378,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/22 11:56:12.000.241,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/29 11:36:26.000.904,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/31 08:08:59.000.503,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/02 23:50:04.000.354,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/03 00:18:20.000.783,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/03 00:19:55.000.891,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/03 11:52:35.000.737,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/12 19:43:49.000.369,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/12 19:44:28.000.623,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Unit1.pas</Transaction>
+    <Transaction>2019/11/12 19:44:28.000.623,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Unit1.fmx</Transaction>
+    <Transaction>2019/11/12 19:44:42.000.347,C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\CodeRage2019Gringo.dproj</Transaction>
+    <Transaction>2019/11/12 19:51:11.366,=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Loading.pas</Transaction>
+    <Transaction>2019/11/12 19:51:21.601,C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Aguarde.pas=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Loading.pas</Transaction>
+    <Transaction>2019/11/12 20:11:54.211,=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Unit2.pas</Transaction>
+    <Transaction>2019/11/12 20:12:37.758,C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\UntFrameBase.fmx=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Unit2.fmx</Transaction>
+    <Transaction>2019/11/12 20:12:37.758,C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\UntFrameBase.pas=C:\Users\adrianosantos\Downloads\CodeRage 2019\Exemplo\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="0052493155"/>
+		<PMac iOSDevice64="_iosdevice_a8afd41eb95798e43f32a1ea975cfc270de4314c"/>
+		<PMacAula3 iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
